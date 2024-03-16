@@ -1,6 +1,6 @@
 # java-best-practices
 
-> 记录Java相关的最佳实践
+> 记录Java相关的最佳实践  
 > 详细计划请移步： [https://www.yuque.com/yuanstack/pi0f3o](https://www.yuque.com/sylvanstack/pi0f3o)
 
 ## 目录介绍
