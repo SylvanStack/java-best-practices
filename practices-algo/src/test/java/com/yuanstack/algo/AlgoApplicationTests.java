@@ -8,6 +8,7 @@ class AlgoApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("contextLoads");
     }
 
 }
