@@ -11,9 +11,8 @@
     <description>所有实践代码的父模块</description>
 
     <modules>
-        <module>practices-runtime-load</module>
-        <module>practices-algo</module>
-        <module>sylvan-core</module>
+        <module>practices-demo</module>
+        <module>practices-core</module>
     </modules>
 
     <properties>
