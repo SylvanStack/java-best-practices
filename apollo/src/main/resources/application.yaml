@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: app2
+app:
+  id: app2
+apollo:
+  cacheDir: /opt/data/
+  cluster: default
+  meta: http://127.0.0.1:8080
+  autoUpdateInjectedSpringProperties: true
+  bootstrap:
+    enabled: true
+    namespaces: app,application
+    eagerLoad:
+      enabled: false
+
+service:
+    registry:
+      uri: http://127.0.0.1:8080/
+
+p:
+  a: a001
+  b: b001
+  c:
+    c01: cccc0001
+    c02: cccc0002
+
+server:
+  port: 8000
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    com.ctrip: debug

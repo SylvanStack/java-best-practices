@@ -1,0 +1,2 @@
+### config list
+GET http://localhost:8000/cf
