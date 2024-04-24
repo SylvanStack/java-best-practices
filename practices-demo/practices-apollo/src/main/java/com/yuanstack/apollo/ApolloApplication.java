@@ -49,9 +49,8 @@ public class ApolloApplication {
             String pa = environment.getProperty("p.a");
             System.out.println(pa);
 
-            ConfigurationPropertiesRebinder rebinder = context.getBean(ConfigurationPropertiesRebinder.class);
-            System.out.println(rebinder);
-
+            //ConfigurationPropertiesRebinder rebinder = context.getBean(ConfigurationPropertiesRebinder.class);
+            //System.out.println(rebinder);
         };
     }
 }

@@ -20,6 +20,7 @@
     <modules>
         <module>practices-runtime-load</module>
         <module>practices-algo</module>
+        <module>practices-apollo</module>
     </modules>
 
     <dependencies>
