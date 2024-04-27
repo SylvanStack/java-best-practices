@@ -2,7 +2,7 @@ package com.yuanstack.apollo;
 
 import com.ctrip.framework.apollo.core.ApolloClientSystemConsts;
 import com.ctrip.framework.apollo.mockserver.ApolloTestingServer;
-import com.yuanstack.apollo.model.Demo;
+import com.yuanstack.apollo.config.Demo;
 import com.yuanstack.apollo2.Config1;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.AfterAll;

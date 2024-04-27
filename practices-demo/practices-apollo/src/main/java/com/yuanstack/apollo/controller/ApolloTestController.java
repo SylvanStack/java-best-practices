@@ -1,6 +1,6 @@
 package com.yuanstack.apollo.controller;
 
-import com.yuanstack.apollo.model.Demo;
+import com.yuanstack.apollo.config.Demo;
 import com.yuanstack.apollo2.Config1;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

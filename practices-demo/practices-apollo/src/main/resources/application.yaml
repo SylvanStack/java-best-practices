@@ -4,7 +4,7 @@ spring:
 app:
   id: app2
 apollo:
-  cacheDir: /opt/data/
+  cacheDir: /2024-Plan/practices/java-best-practices/data/
   cluster: default
   meta: http://127.0.0.1:8080
   autoUpdateInjectedSpringProperties: true

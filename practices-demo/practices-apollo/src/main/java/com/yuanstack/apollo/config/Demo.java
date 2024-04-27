@@ -1,4 +1,4 @@
-package com.yuanstack.apollo.model;
+package com.yuanstack.apollo.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

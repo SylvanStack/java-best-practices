@@ -1,8 +1,8 @@
 package com.yuanstack.apollo;
 
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
+import com.yuanstack.apollo.config.Demo;
 import com.yuanstack.apollo.listener.ApolloChangedListener;
-import com.yuanstack.apollo.model.Demo;
 import com.yuanstack.apollo2.Config1;
 import com.yuanstack.apollo2.Config2;
 import org.springframework.beans.factory.annotation.Autowired;
