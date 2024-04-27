@@ -1,4 +1,4 @@
-package com.yuanstack.algo.linked;
+package com.yuanstack.algo.structure.linear.base.linked;
 
 
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
  * @date 2024年03月02日 19:50
  */
 
-public class SylvanLinkedNode {
+public class LinkedNode {
 
     @Getter
     @Setter
@@ -119,12 +119,10 @@ public class SylvanLinkedNode {
     }
 
     public static void main(String[] args) {
-        SylvanLinkedNode sylvanLinkedNode = new SylvanLinkedNode();
-
+        LinkedNode linkedNode = new LinkedNode();
         Node<Integer> ints = new Node<>(1, null);
         ints.setNext(new Node<>(2, new Node<>(3, new Node<>(4, null))));
-
-        sylvanLinkedNode.printAll(sylvanLinkedNode.reverseList(ints));
+        linkedNode.printAll(linkedNode.reverseList(ints));
     }
 
 }

@@ -1,4 +1,4 @@
-package com.yuanstack.algo.stack;
+package com.yuanstack.algo.structure.linear.stack;
 
 import java.util.Stack;
 
@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author hansiyuan
  * @date 2024年03月02日 23:21
  */
-public class StackDemo {
+public class StackTest {
     public static void main(String[] args) {
 
         // 创建一个 Stack 实例
